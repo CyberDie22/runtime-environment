@@ -19,7 +19,11 @@ runtime.environment // NodeJS or Deno
 
 # Features
 
-Currently this only gives you your runtime environment, as well as command line arguments accessible by:
+Currently this only gives you your runtime environment:
+```javascript
+runtime.environment
+```
+as well as command line arguments accessible by:
 ```javascript
 runtime.args
 ```
