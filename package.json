@@ -1,0 +1,27 @@
+{
+  "name": "runtime-environment-check",
+  "version": "1.0.0",
+  "description": "Runtime environment checker",
+  "main": "runtime-environment-check.js",
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberDie22/runtime-environment-check.git"
+  },
+  "keywords": [
+    "runtime",
+    "nodejs",
+    "deno",
+    "args",
+    "environment"
+  ],
+  "author": "CyberDie22",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CyberDie22/runtime-environment-check/issues"
+  },
+  "homepage": "https://github.com/CyberDie22/runtime-environment-check#readme",
+  "type": "module"
+}
