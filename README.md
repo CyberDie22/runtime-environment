@@ -6,6 +6,7 @@ Runtime environment checker for JavaScript
 NodeJS:
 ```
 npm install runtime-environment-check
+import { runtime } from "runtime-environment-check"
 ```
 
 Deno:
