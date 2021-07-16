@@ -1,14 +1,14 @@
 {
-  "name": "runtime-environment-check",
+  "name": "runtime-environment",
   "version": "1.0.0",
-  "description": "Runtime environment checker",
-  "main": "runtime-environment-check.js",
+  "description": "Runtime environment data library",
+  "main": "runtime-environment.js",
   "scripts": {
-    "test": "./test.sh"
+    "test": "echo 'We don't currently have any testing'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CyberDie22/runtime-environment-check.git"
+    "url": "git+https://github.com/CyberDie22/runtime-environment.git"
   },
   "keywords": [
     "runtime",
@@ -20,8 +20,8 @@
   "author": "CyberDie22",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CyberDie22/runtime-environment-check/issues"
+    "url": "https://github.com/CyberDie22/runtime-environment/issues"
   },
-  "homepage": "https://github.com/CyberDie22/runtime-environment-check#readme",
+  "homepage": "https://github.com/CyberDie22/runtime-environment#readme",
   "type": "module"
 }
