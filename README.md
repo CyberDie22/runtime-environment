@@ -1,21 +1,21 @@
-# runtime-environment-check
-Runtime environment checker for JavaScript
+# runtime-environment
+Runtime environment data library for JavaScript
 
 # Installing
 
 NodeJS:
 ```
-npm install runtime-environment-check
-import { runtime } from "runtime-environment-check"
+npm install runtime-environment
+import { runtime } from "runtime-environment"
 ```
 
 Deno:
 ```javascript
-import { runtime } from "https://raw.githubusercontent.com/CyberDie22/runtime-environment-check/main/runtime-environment-check.js"
+import { runtime } from "https://raw.githubusercontent.com/CyberDie22/runtime-environment/main/runtime-environment.js"
 ```
 
-```
-runtime.environment // NodeJS or Deno
+```javascript
+runtime.environment // 'nodejs' or 'deno'
 ```
 
 # Features
