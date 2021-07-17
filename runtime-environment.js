@@ -1,3 +1,10 @@
+class ExitProgramError extends Error {
+	constructor(message) {
+		super(message)
+		this.name = "ExitProgramError"
+	}
+}
+
 class Runtime {
 	constructor() {}
 
@@ -28,6 +35,17 @@ class Runtime {
 			default:
 				console.warn("Returning empty arguments list, when there may be arguments, as the runtime environment could not be determined")
 				return []
+		}
+	}
+
+	exit(code) {
+		switch (this.environment) {
+			case "nodejs":
+				process.exit(code)
+			case "deno":
+				Deno.exit(code)
+			default:
+				throw ExitProgramError("Could not exit the program by normal means, so throwing error to force exit of program unless caught.")
 		}
 	}
 }
